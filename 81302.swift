@@ -1,9 +1,10 @@
 //
-//  main.swift
+//  81302.swift
 //  ForBackJoon
 //
-//  Created by Jae Kyeong Ko on 2021/11/29.
-//
+//  Created by Jae Kyeong Ko on 2021/12/03.
+//  거리두기 확인하기
+//  https://programmers.co.kr/learn/courses/30/lessons/81302#fn1
 
 import Foundation
 
@@ -60,4 +61,3 @@ func solution(_ places:[[String]]) -> [Int] {
     }
     return answer
 }
-solution([["POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"], ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"], ["PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"], ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"], ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]])
