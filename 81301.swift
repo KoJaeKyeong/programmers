@@ -15,7 +15,6 @@ func solution(_ s:String) -> Int {
             answer = answer.replacingOccurrences(of: value, with: key)
         }
     }
-    print(answer)
     return Int(answer) ?? 0
 }
 

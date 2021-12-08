@@ -24,7 +24,6 @@ func isManhattanDistance(_ places:[[String]]) -> Bool {
                             if places[row][col+1] != "X" {
                                     return false
                                 }
-
                         } else if col == ny {
                             if places[row+1][col] != "X" {
                                 return false
