@@ -8,7 +8,7 @@
 
 import Foundation
 
-func solution(_ priorities:[Int], _ location:Int) -> Int {
+func solution(priorities:[Int], location:Int) -> Int {
     var answer = 0
     var index = [Int]()
     var priorities = priorities
