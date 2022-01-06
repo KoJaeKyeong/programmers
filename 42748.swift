@@ -14,6 +14,5 @@ func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
         splitedArray = array[commands[i][0]-1...commands[i][1]-1].map{ Int($0) }.sorted()
         answerArray.append(splitedArray[commands[i][2]-1])
     }
-    print(answerArray)
     return answerArray
 }
