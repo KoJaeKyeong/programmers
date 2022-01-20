@@ -22,6 +22,6 @@ func solution(str:String) -> String {
             }
         }
     }
-
+    
     return answer.joined(separator: " ")
 }
