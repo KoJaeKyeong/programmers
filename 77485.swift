@@ -20,7 +20,6 @@ func solution(_ rows:Int, _ columns:Int, _ queries:[[Int]]) -> [Int] {
         matrix = lotation(matrix: matrix, coordinate: query).matrix
         answer.append(lotation(matrix: matrix, coordinate: query).answer)
     }
-    print(answer)
     return answer
 }
 

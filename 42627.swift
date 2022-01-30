@@ -32,3 +32,4 @@ func solution(_ jobs:[[Int]]) -> Int {
     
     return totalTime / jobs.count
 }
+
