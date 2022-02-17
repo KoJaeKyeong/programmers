@@ -22,7 +22,7 @@ func isPrime(_ num: Int) -> Bool {
     if num <= 1 {
         return false
     } else if num > 1 {
-        for i in 2..<Int(sqrt(Double(num)))+1 {
+        for i in 2..<Int(sqrt(Double(num))) + 1 {
             if num % i == 0 {
                 return false
             }
